@@ -8,7 +8,7 @@ Thaandavam = media.Movie("Thaandavam",
                          "https://youtu.be/ZuBrAl9JBtg")
 
 
-AY_M = media.Movie("AYM ",
+Aym = media.Movie("AYM ",
                    " ",
                    "http://bit.ly/2ipWH7E",
                    "https://youtu.be/7Oz-8Vj_JfY")
@@ -37,5 +37,5 @@ Enthiran = media.Movie("Enthiran",
                        "https://youtu.be/FjWbHV2oMVk")
 
 
-movies = [Thaandavam, AY_M, Irumugan, Thuppakki, twentyfour, Enthiran]
+movies = [Thaandavam, Aym, Irumugan, Thuppakki, twentyfour, Enthiran]
 fresh_tomatoes.open_movies_page(movies)
