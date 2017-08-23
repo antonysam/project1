@@ -2,36 +2,36 @@ import fresh_tomatoes
 import media
 
 
-vivegam = media.Movie("VIVEGAM",
+Thaandavam = media.Movie("Thaandavam",
                       " ",
-                      "https://goo.gl/4GF4Uf",
+                      "http://bit.ly/2xsh0nQ",
                       "https://youtu.be/uM7zTAMFRxc")
 
-bahubali = media.Movie("BAHUBALI 2",
+AYM = media.Movie("AYM ",
                        " ",
-                       "https://goo.gl/WG15KS",
+                       "http://bit.ly/2xbYJf0",
                        "https://youtu.be/94BzBOpv42g")
 
-fury = media.Movie("FURY",
+Irumugan = media.Movie("Irumugan",
                    " ",
-                   "http://bit.ly/2uUJObE",
+                   "http://bit.ly/2vXtiqa",
                    "https://youtu.be/09w9MTtZDEM")
 
 
-argo = media.Movie("ARGO",
+Thupakki = media.Movie("Thupakki",
                     "",
-                    "https://goo.gl/YzD4bs",
+                    "http://bit.ly/2v5pWm8",
                     "https://youtu.be/T29kIOXpj6o")
 
-ironman = media.Movie("Iron Man",
+twentyfour = media.Movie("24",
                       " ",
-                      "https://goo.gl/S94jLf",
+                      "http://bit.ly/2xcGlTd",
                       "https://youtu.be/YLorLVa95Xo")
 
-singam3 = media.Movie("S 3",
+Enthiran = media.Movie("Enthiran",
                       " ",
-                      "https://goo.gl/VdArbn",
+                      "http://bit.ly/2v5c7UZ",
                       "https://youtu.be/CP9DinMVFq8")
 
-movies = [vivegam, bahubali, fury, argo, ironman, singam3]
+movies = [Thaandavam, AYM, Irumugan, Thupakki, twentyfour, Enthiran]
 fresh_tomatoes.open_movies_page(movies)
