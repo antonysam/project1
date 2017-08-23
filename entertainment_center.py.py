@@ -1,37 +1,41 @@
 import fresh_tomatoes
+
 import media
 
-
 Thaandavam = media.Movie("Thaandavam",
-                      " ",
-                      "http://bit.ly/2xsh0nQ",
-                      "http://bit.ly/2w3CJmq")
+                         " ",
+                         "http://bit.ly/2xsh0nQ",
+                         "https://youtu.be/ZuBrAl9JBtg")
 
-AYM = media.Movie("AYM ",
-                       " ",
-                       "http://bit.ly/2xbYJf0",
-                       "http://bit.ly/2wEN8aI")
+
+AY_M = media.Movie("AYM ",
+                   " ",
+                   "http://bit.ly/2ipWH7E",
+                   "https://youtu.be/7Oz-8Vj_JfY")
+
 
 Irumugan = media.Movie("Irumugan",
-                   " ",
-                   "http://bit.ly/2vXtiqa",
-                   "http://bit.ly/2cctHIZ")
+                       " ",
+                       "http://bit.ly/2ipFw6l",
+                       "https://youtu.be/L_0jexAQsB0")
 
+Thuppakki = media.Movie("Thupakki ",
+                        " ",
+                        "http://bit.ly/2vfqMsw",
+                        "https://youtu.be/2S0Fk2Dh9Mk")
 
-Thupakki = media.Movie("Thupakki",
-                    "",
-                    "http://bit.ly/2v5pWm8",
-                    "http://bit.ly/2w3EnVn")
 
 twentyfour = media.Movie("24",
-                      " ",
-                      "http://bit.ly/2xcGlTd",
-                      "http://bit.ly/2vfxhLU")
+                         " ",
+                         "http://bit.ly/2xcGlTd",
+                         "https://youtu.be/tBkngXt7LLs")
+
 
 Enthiran = media.Movie("Enthiran",
-                      " ",
-                      "http://bit.ly/2v5c7UZ",
-                      "http://bit.ly/2vokXZ3")
+                       " ",
+                       "http://bit.ly/2v5",
+                       "https://youtu.be/FjWbHV2oMVk")
 
-movies = [Thaandavam, AYM, Irumugan, Thupakki, twentyfour, Enthiran]
+
+movies = [Thaandavam, AY_M, Irumugan, Thuppakki, twentyfour, Enthiran]
 fresh_tomatoes.open_movies_page(movies)
