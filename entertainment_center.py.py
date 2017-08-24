@@ -33,7 +33,7 @@ twentyfour = media.Movie("24",
 
 Enthiran = media.Movie("Enthiran",
                        " ",
-                       "http://bit.ly/2v5",
+                       "http://bit.ly/2itNNpF",
                        "https://youtu.be/FjWbHV2oMVk")
 
 
