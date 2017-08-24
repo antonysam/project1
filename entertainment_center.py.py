@@ -1,5 +1,4 @@
 import fresh_tomatoes
-
 import media
 
 Thaandavam = media.Movie("Thaandavam",
@@ -7,12 +6,10 @@ Thaandavam = media.Movie("Thaandavam",
                          "http://bit.ly/2xsh0nQ",
                          "https://youtu.be/ZuBrAl9JBtg")
 
-
 Aym = media.Movie("AYM ",
                    " ",
                    "http://bit.ly/2ipWH7E",
                    "https://youtu.be/7Oz-8Vj_JfY")
-
 
 Irumugan = media.Movie("Irumugan",
                        " ",
@@ -24,12 +21,10 @@ Thuppakki = media.Movie("Thupakki ",
                         "http://bit.ly/2vfqMsw",
                         "https://youtu.be/2S0Fk2Dh9Mk")
 
-
 twentyfour = media.Movie("24",
                          " ",
                          "http://bit.ly/2xcGlTd",
                          "https://youtu.be/tBkngXt7LLs")
-
 
 Enthiran = media.Movie("Enthiran",
                        " ",
